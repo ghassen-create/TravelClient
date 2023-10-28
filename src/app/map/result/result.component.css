@@ -1,0 +1,242 @@
+.Title{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.DessResult{
+    margin: auto;
+    width: 80%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    
+justify-content: center;
+}
+.DessResult .Cart:hover{
+    /* width: 220px;     */
+    /* height: 320px; */
+    box-shadow: 1px 1px 50px 0.5px rgb(201, 201, 201);
+}
+.DessResult .Cart{
+    /* box-shadow: 1px 1px 20px 0.5px rgb(201, 201, 201); */
+    margin-left: 40px;
+    margin-top: 5px;
+    width: 200px;
+    height: 300px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.DessResult .Cart .AA1 .MakeF{
+    display: flex;
+    z-index: 50;
+}
+.DessResult .Cart .AA1 .MakeF .theEnd{
+    
+}
+/* .DessResult .Cart .AA1 .MakeF .theEnd button svg g{
+    background-color: #3a68f2;
+
+} */
+.DessResult .Cart .AA1 .MakeF .theEnd button svg{
+    z-index: 400;
+}
+.DessResult .Cart .AA1 .MakeF .theEnd button{
+    /* z-index: 100; */
+    width: 30px;
+    height: 30px;
+    margin-left: 1px;
+    background-color: transparent;
+    border: 0px;
+}
+.DessResult .Cart .AA1 {
+    display: flex;
+    position: relative;
+    overflow: hidden; /* Hide any overflow */
+}
+.DessResult .Cart .AA img{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Scale the image to cover the entire container */
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.DessResult .Cart .theDESS{
+    display: flex;
+    flex-direction: column;
+justify-content: space-around;
+}
+.DessResult .Cart .AA{
+    /* border: 2px solid black; */
+    width: 95%;
+    height: 45%;
+}
+.DessResult .Cart .AA .Titles{
+    font-weight: bold;
+    font-family: sans-serif;   
+    font-size: 20px;
+    
+}
+
+.DessResult .Cart .AA .des{
+    /* font-weight: bold; */
+    font-family: sans-serif;   
+    font-size: 20px;
+    margin-top: -7px;
+    color: rgb(115, 115, 115);
+    font-size: 15px;
+    
+}
+
+.DessResult .Cart .AA .Include{
+    font-family: sans-serif;   
+    /* font-size: 20px; */
+    color: rgb(57, 57, 57);
+    font-size: 10px;
+    font-weight: bold;
+    /* height: 50px; */
+    
+    
+}
+.DessResult .Cart .AA .theStars{
+    margin-top: -7px;
+    display: flex;
+    align-items: center;
+    
+align-items: flex-end;
+}
+.DessResult .Cart .AA .theStars .rating{
+    font-family: sans-serif;   
+    /* font-size: 5px; */
+    color: rgb(115, 115, 115);
+    font-size: 10px;
+    margin-left: 3px;
+    font-weight: bold;
+    /* border: 2px solid black; */
+}
+.DessResult .Cart .AA .theStars .theSvg{
+    width: 20px;
+    height: 20px;
+    margin-left: 1px;
+}
+.DessResult .Cart .AA .allBB {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.DessResult .Cart .AA .allBB .PP{
+    width: 30%;
+    color: rgb(252, 252, 252);
+    font-weight: bolder;
+    background-color: #3a68f2;
+    /* border: 2px solid black; */
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 2px;
+
+}
+/* /////////////////////////////////////////////////////////////////////////:: */
+/* end of the results */
+.MM div{
+    font-family: sans-serif;
+
+}
+.MM{
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 20px;
+    /* border: 1px solid black;    */
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden; /* Hide any overflow of the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MM img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Scale the image to cover the entire container */
+    z-index: -1; /* Position the image behind the container content */
+}
+.MM .containt{
+    height: 80%;
+    width: 80%;
+    border-radius: 15px;
+    display: flex;align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.MM .containt .TITRE{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+}
+ .theSvg {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    /* display: flex; */
+    /* border: 2px solid wheat; */
+    
+}
+#LOLO{
+    display: flex;
+
+}
+.oneS{
+    width: 15px;
+    height: 15px;
+    /* border: 2px solid wheat; */
+margin-left: 2px;}
+.MM .containt .dess{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+.MM .containt .Rating{
+    font-size: 7px;
+    color: rgb(211, 211, 211);
+
+}
+.MM .containt button{
+    color: aliceblue;
+    background-color: rgb(46, 46, 255);
+    border: 0px;
+    border-radius: 5px;
+    font-weight:bold ;
+    padding: 5px 20px;
+}
+.MM .containt .aa{
+    width: 80%;
+    color: rgb(193, 193, 193);
+    font-weight: bold;
+    font-size: 11px;
+    display: flex;
+    width: 80%;
+    
+}
+/* //////////////////////////////////////////////////////////////////// */
+/* cart1.2 */
+.pagination{
+width: 100%;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+}
